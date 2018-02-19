@@ -1,6 +1,6 @@
 # Restaurant Site
 
-Simple Restaurant Site
+Simple Restaurant Site ///
 To get the best user experience, please use Chrome or Firefox!
 https://andrerothweiler.ch/projects/restaurantapp/index.html
 
