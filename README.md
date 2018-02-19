@@ -1,6 +1,9 @@
 # Restaurant Site
-Simple Restaurant App
+
+Simple Restaurant Site
+To get the best user experience, please use Chrome or Firefox!
 https://andrerothweiler.ch/projects/restaurantapp/index.html
+
 ----------------------------------
 I've been working on a simple but very modern-looking site. 
 This site is intended for restaurant owners. In the future,
@@ -18,3 +21,4 @@ I apply this technology from now on.
 ----------------------------------
 Version 1.0.0
 first upload
+
