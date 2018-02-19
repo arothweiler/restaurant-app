@@ -1,4 +1,4 @@
-# restaurant-app
+# Restaurant Site
 Simple Restaurant App
 https://andrerothweiler.ch/projects/restaurantapp/index.html
 ----------------------------------
