@@ -1,0 +1,25 @@
+$white: #f4f5f7;
+$color1: #0b0d0f;
+$color2: #bed390;
+$color3: #cd9933;
+$color4: #efbf6a;
+$color5: #6a635b;
+$nav-bg-color: rgba(242, 241, 239, 1);
+$nav-height:60px;
+$footer-height: 2.6em;
+
+@mixin ourfont {
+ font-family: 'Petit Formal Script', sans-serif;
+ font-style: 200;
+ letter-spacing: 1px;
+}
+@mixin ourmargin {
+margin: 300px 0;
+}
+@mixin ourheading {
+  letter-spacing: 1px;
+  font-weight: 200;
+  font-size: 3em;
+  margin: auto;
+
+}

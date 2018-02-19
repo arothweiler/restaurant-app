@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>App Restaurant</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Petit+Formal+Script&subset=latin-ext');
+</style>
+<link rel="stylesheet" type="text/css" href="styles/icons/mfizz/font-mfizz.css"/>
+<link rel="stylesheet" type="text/css" href="styles/icons/fontawesome/web-font-with-css/css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+
+
+</head>
+<body>
+  <header id="header">
+    <div class="slideshow-container">
+        <img src="img/main-photo.jpg" style="width:100%">
+      <div class="mySlides fade">
+      <div class="text">Because we love food!</div>
+    </div>
+    </div>
+  </header>
+  <nav>
+    <ul class="logo">
+      <li>
+        <a href="#"> <img src="img/our-logo.svg" alt="svg-picture">   </a>
+      </li>
+    </ul>
+    <ul id="nav-menu" class="nav-menu collapse">
+      <li><a href="#">Home</a></li>
+      <li><a href="#portrait">Portrait</a></li>
+      <li><a href="#desc">Menu</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    </ul>
+    <ul class="nav-menu mobile-menu">
+      <li>
+        <a href="#" data-toggle="collapse" data-target="#nav-menu">
+          <i class="fa fa-navicon"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section class="portrait" id="portrait">
+      <div class="port-first">
+        <div class="port-name">
+        <h3>Jean Dupont</h3>
+        <p>Head Chief</p>
+        </div>
+        <img src="img/cook.jpg" style="max-width: 100%; height: auto;">
+
+      </div>
+      <div class="port-second">
+        <h2>WE ARE THE BEST <br>  FRENCH RESTAURANT IN MANCHESTER</h2>
+        <hr>
+        <h5>OUR WORK OF ART</h5>
+        <p> Lorem ipsum dolor sit amet,
+         consectetur adipisicing elit. Magnam
+         velit nostrum consequuntur quisquam molestias
+        odio alias esse praesentium repellendus sequi,
+        ab, ex. Eius voluptatem vel expedita incidunt
+        quia, consequuntur odio.  Lorem ipsum dolor sit amet,
+         consectetur adipisicing elit. Magnam
+
+        </p>
+      </div>
+
+  </section>
+  <section class="hero">
+    <div class="hero-text">
+    <h2>only the best quality for our customers</h2>
+    </div>
+  </section>
+<section class="desc" id="desc">
+  <div class="desc-font">
+    <h2>our house specialties</h2>
+    <hr>
+  </div>
+</section>
+  </section>
+  <section class="portfolio_block">
+    <div class="gallery">
+      <div class="img_box blur"><img src="img/gallery/chocolat-cake.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/escargot-menu.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/fruit-salad.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/goulache-menu.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/hamburger-with.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/poulet-menu.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/seefood.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/shrimps.jpg" alt></div>
+      <div class="img_box blur"><img src="img/gallery/meat-plate.jpg" alt></div>
+    </div>
+  </section>
+  <section class="reservation" id="reservation">
+    <div class="intro">
+
+      <h2>Online Resevation</h2>
+      <hr>
+      <p>you can also call us to reserve a table! <br></p>
+        <p>0043 23424 23424</p>
+    </div>
+    <div class="reservation-tabs">
+      <form action="our_php.php">
+        <label for="fname"></label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="date"></label>
+        <select id="date" name="date">
+          <option value="today">today</option>
+          <option value="tomorrow">tomorrow</option>
+          <option value="dayatomorrow">the day after tomorrow</option>
+        </select>
+        <label for="time"></label>
+        <select id="time" name="time">
+          <option value="erste">12:00 - 13:00</option>
+          <option value="zweite">13:00 - 14:00</option>
+          <option value="dritte">14:00 - 15:00</option>
+          <option value="vierte">15:00 - 16:00</option>
+          <option value="fuenfte">16:00 - 17:00</option>
+          <option value="sechste">17:00 - 18:00</option>
+          <option value="siebte">18:00 - 19:00</option>
+          <option value="achte">19:00 - 20:00</option>
+          <option value="neunte">20:00 - 21:00</option>
+          <option value="zehnte">21:00 - 22:00</option>
+          <option value="elf">22:00 - 23:00</option>
+          <option value="zwoelf">23:00 - 24:00</option>
+        </select>
+
+        <label for="subject"></label>
+        <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+    </div>
+  </section>
+  <footer>
+    <div class="footer-col1">
+      <h4>Contact</h4>
+      <p>49 Portland St, Manchester <br>
+         M1 3LD, United Kingdom <br>
+      <p>0043 23424 23424</p>
+
+  </div>
+    <div class="footer-col2">
+      <h4>Opening Hours</h4>
+      <p>Monday: Closed <br>
+          Tuesday: 12:00 – 21:30 <br>
+          Wednesday: 12:00 – 21:30<br>
+          Thursday: 12:00 – 23:30<br>
+          Friday: 12:00 – 24:00<br>
+          Saturday: 12:00 – 24:00<br>
+          Sunday: Closed <br>
+</p>
+    </div>
+    <div class="footer-col3">
+      <h4>Newsletter</h4>
+      <p>© Copyright 2018. Andre Rothweiler  <br>
+         Photos used within the demo come from www.pexels.com. <br>
+         Please, before you use this HTML-Template, contact me. <br>
+         <br>andre.rothweiler@gmail.com.</p>
+    </div>
+  </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
