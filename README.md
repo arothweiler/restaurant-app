@@ -2,7 +2,7 @@
 
 Simple Restaurant Site ///
 To get the best user experience, please use Chrome or Firefox!
-<a href="https://andrerothweiler.ch/projects/restaurantapp/index.html"></a>
+<a href="https://andrerothweiler.ch/projects/restaurantapp/index.html">check it out</a>
 
 
 ----------------------------------
